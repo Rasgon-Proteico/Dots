@@ -1,0 +1,34 @@
+# ~/.config/wofi/config
+
+# --- Modo de Operación ---
+# drun es el modo que busca archivos .desktop (aplicaciones)
+mode=drun
+
+# --- Apariencia y Comportamiento ---
+# Permitir imágenes (necesario para los iconos)
+allow_images=true
+# Mostrar iconos
+show_icons=true
+# Tamaño de los iconos
+icon_size=48
+
+# --- Dimensiones y Posición ---
+# Ancho de la ventana (puedes usar px o %)
+width=600
+# Alto de la ventana
+height=400
+# Ignorar el padding del CSS para un control total
+# inner_padding=0
+
+# --- Comportamiento del Teclado ---
+# Insensible a mayúsculas/minúsculas
+insensitive=true
+# Ocultar el texto de búsqueda al inicio
+hide_scroll=true
+
+# --- Líneas y Columnas ---
+# Esto es clave para el layout de cuadrícula
+# Define cuántas columnas quieres
+columns=4
+# El número de filas se ajustará automáticamente
+# lines=4

@@ -1,0 +1,54 @@
+/* ~/.config/wofi/style.css */
+
+/* --- Ventana Principal --- */
+window {
+    background-color: rgba(30, 30, 46, 0.85); /* Un fondo oscuro y translúcido */
+    border: 2px solid #cba6f7; /* Borde color lavanda (Catppuccin) */
+    border-radius: 15px; /* Bordes bien redondeados */
+    font-family: "JetBrainsMono Nerd Font", sans-serif; /* Usa tu fuente favorita */
+}
+
+/* --- Caja de Búsqueda --- */
+#input {
+    background-color: #1e1e2e; /* Fondo de la barra de búsqueda */
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    color: #cdd6f4; /* Color del texto */
+    font-size: 16px;
+}
+
+/* --- Contenedor de los resultados --- */
+#inner-box {
+    margin: 10px;
+    spacing: 10px; /* Espacio entre los elementos de la cuadrícula */
+}
+
+/* --- Cada Aplicación (Entrada) --- */
+#entry {
+    padding: 10px;
+    border-radius: 10px;
+    /* Esto es clave: hacemos que el icono y el texto estén uno encima del otro */
+    -gtk-orientation: vertical;
+}
+
+/* --- Entrada seleccionada --- */
+#entry:selected {
+    background-color: #89b4fa; /* Color de selección (azul) */
+    color: #1e1e2e; /* Texto oscuro sobre fondo claro */
+}
+
+#entry:selected label {
+    color: #1e1e2e;
+}
+
+/* --- Icono de la Aplicación --- */
+#img {
+    margin-bottom: 5px; /* Espacio entre el icono y el texto */
+}
+
+/* --- Nombre de la Aplicación --- */
+#text {
+    color: #cdd6f4; /* Color del texto de las apps */
+}
