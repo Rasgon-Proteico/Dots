@@ -47,7 +47,6 @@ Figlet & Lolcat: Mensajes de bienvenida coloridos.
 
 Instala las fuentes para evitar iconos rotos:
 
-code
 Bash'''
 sudo pacman -S ttf-material-symbols-variable-git ttf-material-design-icons-desktop-git ttf-jetbrains-mono-nerd
 '''
