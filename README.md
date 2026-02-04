@@ -48,19 +48,13 @@ Figlet & Lolcat: Mensajes de bienvenida coloridos.
 Instala las fuentes para evitar iconos rotos:
 
 code
-Bash
-download
-content_copy
-expand_less
+Bash'''
 sudo pacman -S ttf-material-symbols-variable-git ttf-material-design-icons-desktop-git ttf-jetbrains-mono-nerd
+'''
 2. Clonar y Configurar
-code
-Bash
-download
-content_copy
-expand_less
+Bash'''
 git clone https://github.com/Rasgon-Proteico/Dots.git
-cd Dots
+cd Dots'''
 setup 
 /.install.sh
 #!/bin/bash
