@@ -94,16 +94,10 @@ keyboardFocus: WWayland.OnDemand
 ```
 
 
-⌨️ Atajos Personalizados
-Tecla	Acción
-Super + N Barra Lateral
-Super + Enter	Abrir Kitty
-Super + Q Abrir kitty 
-Super + I	Abrir Menú de Ajustes de Apariencia
-Ctrl + Alt + R	Reiniciar Quickshell (Aplicar cambios)
 🤝 Créditos
 
 Base original: end-4
+De quien lo vi :Senchpimy
 
 Wallpaper & Icons: Material Design 3 / Material You
 
