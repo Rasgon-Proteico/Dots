@@ -61,7 +61,7 @@ cd Dots
 setup 
 /.install.sh
 ```
-3. El comando setup y /.install, se ejecutan en ese orden
+ El comando setup y /.install, se ejecutan en ese orden
 ```bash
 sudo pacman -S --noconfirm ttf-jetbrains-mono-nerd noto-fonts-emoji
 yay -S --noconfirm ttf-material-symbols-variable-git ttf-material-design-icons-desktop-git
@@ -78,15 +78,7 @@ sudo pacman -S --noconfirm nvidia-utils cuda
 ```bash
 sudo pacman -S --noconfirm figlet lolcat
 ```
-fc-cache -fv
-
-echo "--------------------------------------------------"
-echo "¡Todo instalado con éxito! 🚀"
-echo "Recuerda que ComfyUI se instaló manualmente en su propia carpeta con venv."
-echo "--------------------------------------------------"
-
 3. Extraer Archivos
-
 Para manejar archivos comprimidos desde el gestor de archivos (Thunar):
 
 ```bash
