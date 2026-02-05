@@ -58,12 +58,11 @@ sudo pacman -S ttf-material-symbols-variable-git ttf-material-design-icons-deskt
 ```bash
 git clone https://github.com/Rasgon-Proteico/Dots.git
 cd Dots
-```
 setup 
 /.install.sh
-#!/bin/bash
+```
+3. El comando setup y /.install, se ejecutan en ese orden
 ```bash
-
 sudo pacman -S --noconfirm ttf-jetbrains-mono-nerd noto-fonts-emoji
 yay -S --noconfirm ttf-material-symbols-variable-git ttf-material-design-icons-desktop-git
 sudo pacman -S --noconfirm unzip zip p7zip unrar tar file-roller thunar-archive-plugin
@@ -76,8 +75,6 @@ sudo pacman -S --noconfirm python python-pip git
 ```bash
 sudo pacman -S --noconfirm nvidia-utils cuda
 ```
-
-# --- 5. Estética de la Terminal (Matrix y Bienvenida) ---
 ```bash
 sudo pacman -S --noconfirm figlet lolcat
 ```
